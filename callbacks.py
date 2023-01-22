@@ -1,4 +1,4 @@
-from telegram.ext import run_async
+from asyncio import run_async
 from heroku_helper import HerokuHelper
 from io import BytesIO
 from config import Config
