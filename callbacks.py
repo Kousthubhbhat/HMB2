@@ -1,4 +1,4 @@
-from telegram.ext import startHandler, logHandler, restartHandler, addAuthUserHandler 
+from telegram import startHandler, logHandler, restartHandler, addAuthUserHandler 
 from heroku_helper import HerokuHelper
 from io import BytesIO
 from config import Config
